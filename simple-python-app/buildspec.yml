@@ -24,6 +24,7 @@ phases:
   post_build:
     commands:
       - echo "Build completed successfully!"
+      - echo "Testing auto triggering of Continuous Integration pipeline"
 artifacts:
   files:
     - '**/*'
