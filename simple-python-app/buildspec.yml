@@ -25,8 +25,3 @@ phases:
     commands:
       - echo "Build completed successfully!"
       - echo "Testing auto triggering of Continuous Integration pipeline"
-artifacts:
-  files:
-    - '**/*'
-  base-directory: ../simple-python-app
-
